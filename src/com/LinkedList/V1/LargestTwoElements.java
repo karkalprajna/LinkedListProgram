@@ -14,9 +14,9 @@ public class LargestTwoElements {
 		largest2 = elements[1];
 
 		if (largest1 < largest2) {
-			int flag = largest1;
+			int temp = largest1;
 			largest1 = largest2;
-			largest2 = flag;
+			largest2 = temp;
 		}
 
 		for (int i = 2; i < elements.length; i++) {
