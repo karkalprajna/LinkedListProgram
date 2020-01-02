@@ -3,7 +3,7 @@ package practicePrograms;
 public class MiniMaxSum {
 
 	public static void main(String[] args) {
-		int arr[] = {1, 2, 3, 4, 5};
+		int[] arr = {1, 2, 3, 4, 5};
 		miniMaxSum(arr);
 	}
 
@@ -12,7 +12,7 @@ public class MiniMaxSum {
         int maxSum = 0;
         int count = 0;
         int sum = 0;
-        int tempSum[] = new int[arr.length];
+        int[] tempSum = new int[arr.length];
         
         while(count<arr.length){
         	sum = 0;

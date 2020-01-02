@@ -15,7 +15,7 @@ public class BirthdayCakeCandles {
             if(ar[i]>max)
                 max = ar[i];
         }
-        //count the occerence of that element
+        //count the occurrence of that element
         for(int i=0;i<ar.length;i++){
             if(ar[i] == max){
                 count++;

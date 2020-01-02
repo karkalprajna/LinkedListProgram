@@ -38,7 +38,7 @@ public class JavaStreams {
 		System.out.println("---------------");
 		
 		//5. Stream of array, sort, filter 
-		String name[] = {"karkal","Prajna","likitha","Namratha"};
+		String[] name = {"karkal","Prajna","likitha","Namratha"};
 		Arrays.stream(name)
 		.filter(x-> x.startsWith("l"))
 		.sorted()

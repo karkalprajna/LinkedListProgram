@@ -10,7 +10,7 @@ public class PrintDuplicateCharacters {
 
 	private static HashMap< Character, Integer> checkDuplicateChar(String name) {
 		char[] names = name.toCharArray();
-		HashMap< Character, Integer> duplicateList = new HashMap<Character, Integer>();
+		HashMap< Character, Integer> duplicateList = new HashMap<>();
 		for(Character chName : names){
 			if(duplicateList.containsKey(chName)){
 				duplicateList.put(chName,duplicateList.get(chName)+1);
