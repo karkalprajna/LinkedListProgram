@@ -24,17 +24,12 @@ public class MiniMaxSum {
             tempSum[count] = sum;
             count++;
         }
-        //max sum
-        maxSum = tempSum[0];
+      //max sum
+       minSum = maxSum = tempSum[0];
         for(int i=0;i<tempSum.length;i++){
             if(tempSum[i]>maxSum){
                 maxSum = tempSum[i];
             }
-        }
-
-        //min sum
-        minSum = tempSum[0];
-        for(int i=0;i<tempSum.length;i++){
             if(tempSum[i]<minSum){
                 minSum = tempSum[i];
             }
