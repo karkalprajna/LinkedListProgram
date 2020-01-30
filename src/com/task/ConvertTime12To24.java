@@ -27,8 +27,9 @@ public class ConvertTime12To24 {
 	    	System.out.println("Invalid input");
 	    	return;
 	    }
+	    Character ch = new Character(time12.charAt(8));
 	    
-	    if (time12.charAt(8) == 'A') 
+	    if (ch.equals('A')) 
 	    { 
 	        if (hh == 12) 
 	        { 

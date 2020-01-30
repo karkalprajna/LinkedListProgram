@@ -32,4 +32,5 @@ public class IterateMapUsingLambda {
 	private interface FunctionalInterface{
 		void sayNames();		
 	}
+	
 }
